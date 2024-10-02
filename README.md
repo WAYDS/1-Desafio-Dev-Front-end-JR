@@ -1,8 +1,8 @@
-# <img src="./icons_local/logo_ico.svg" width="28" /> Desafio Técnico para Desenvolvedor Front-End Júnior - Way Data Solution
+# <img src="./icons_local/logo_ico.svg" width="30" /> Desafio Técnico para Desenvolvedor Front-End Júnior - Way Data Solution
 
 ## Descrição do Projeto
 
-O Ativo, é uma entidade extremamente importante no contexto da Way Data, ele representa um sensor que normalmente é instalado em caminhões ou camaras frias para monitoramento de temperatura, umidade e GPS.
+O Ativo é uma entidade extremamente importante no contexto da Way Data. Ele representa um sensor que normalmente é instalado em caminhões ou câmaras frias para monitoramento de temperatura, umidade e GPS.
 
 Você desenvolverá uma aplicação para gerenciamento de ativos de um cliente da Way Data.
 
