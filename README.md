@@ -14,7 +14,8 @@ Você desenvolverá uma aplicação para gerenciamento de ativos de um cliente d
 
 1. **Visualizar ativos:** Exibir uma lista de todos os ativos disponíveis.
 2. **Adicionar novo ativo:** Através de um formulário, permitir a inserção de novos ativos.
-3. **Editar ativo existente:** Ao clicar em um ativo da lista, o formulário de adicionar deve mudar para modo de edição, permitindo atualizar os dados.
+3. **Deletar ativo existente:** Ao clicar em botão na lista de ativos, o mesmo deve ser deletado.
+4. **Editar ativo existente:** Ao clicar em um ativo da lista, o formulário de adicionar deve mudar para modo de edição, permitindo atualizar os dados.
 
 ### Modelo de Dados
 
@@ -36,16 +37,17 @@ A aplicação deve interagir com uma API RESTful cuja url será disponibilizada 
 
 - **GET /v1/ativo**: Retorna um array de ativos.
 - **POST /v1/ativo**: Cria um novo ativo.
-- **PUT /v1/ativo/:id**: Atualiza um ativo existente.
+- **DELETE /v1/ativo/:codigo**: Remove um ativo existente.
+- **PUT /v1/ativo/:codigo**: Atualiza um ativo existente.
 
 ### Tokens
 
 ```json
 {
-  "bg": "#1E3A8A",
-  "bg-button": "#71717A",
-  "bg-card": "#202937",
-  "text": "#E4E4E7"
+  "bg": "#1E3A8A", // bg-blue-900
+  "bg-button": "#71717A", // bg-zinc-500
+  "bg-card": "#202937", // bg-gray-800
+  "text": "#E4E4E7" // text-gray-200
 }
 ```
 
